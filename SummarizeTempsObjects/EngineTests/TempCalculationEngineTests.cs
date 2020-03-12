@@ -24,10 +24,11 @@ namespace EngineTests
             testTemps.Add(60);
             testTemps.Add(70);
         }
+        // add logic to calculate average
 
         /// <summary>
-		/// Test the average temperature calculation
-		/// </summary>
+        /// Test the average temperature calculation
+        /// </summary>
         [TestMethod]
         public void TempCalculationEngine_AverageTemp()
         {
